@@ -1,0 +1,10 @@
+/*Нужно исправить
+  Все стили должны подключаться в одном главном файле index.css
+*/
+
+@import url('./__content/page__content.css');
+@import url('./__section/page__section.css');
+
+.page {
+  background: #000;
+}

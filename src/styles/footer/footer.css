@@ -1,0 +1,18 @@
+/*Нужно исправить
+  Все стили должны подключаться в одном главном файле index.css
+*/
+
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+  font-family: 'Inter', Arial, sans-serif;
+  flex-shrink: 0;
+  /*Стики футер*/
+  padding: 30px 0 60px;
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
+    padding: 30px 0 36px;
+  }
+}

@@ -1,0 +1,17 @@
+
+/*Нужно исправить
+  Файл index.css необходимо перенести в директорию pages*/
+@import url('./vendor/fonts.css');
+@import url('./styles/page/page.css');
+@import url('./styles/header/header.css');
+@import url('./styles/content/content.css');
+@import url('./styles/footer/footer.css');
+@import url('./styles/profile/profile.css');
+@import url('./styles/places/places.css');
+@import url('./styles/card/card.css');
+@import url('./styles/popup/popup.css');
+@import url('./styles/popup/_is-opened/popup_is-opened.css');
+/*Нужно исправить
+Файл сброса стилей normalize.css нужно подключать раньше всех остальных файлов. На текущий момент normalize.css может перекрывать стили заданные при разработке. */
+@import url('./vendor/normalize.css');
+/*Импортируем на уровень выше*/
